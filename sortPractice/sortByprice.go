@@ -6,8 +6,8 @@ import (
 )
 
 type Flight struct {
-	Airline string
-	Price   int
+	Destination string
+	Price       int
 }
 
 func SortByPrice(flights []Flight) []Flight {
@@ -19,6 +19,6 @@ func SortByPrice(flights []Flight) []Flight {
 
 func PrintFlights(flights []Flight) {
 	for _, flight := range flights {
-		fmt.Printf("Airline: %s, Price: %d\n", flight.Airline, flight.Price)
+		fmt.Printf("Airline: %s, Price: %d\n", flight.Destination, flight.Price)
 	}
 }

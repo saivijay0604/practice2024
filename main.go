@@ -27,10 +27,10 @@ func main() {
 	sortPractice.SortUsingFunction()
 
 	flights := []sortPractice.Flight{
-		{"AirlineA", 300},
-		{"AirlineB", 200},
-		{"AirlineC", 500},
-		{"AirlineD", 400},
+		{"Texas", 300},
+		{"Arizona", 200},
+		{"New York", 500},
+		{"Vegas", 400},
 	}
 
 	fmt.Println("Before sorting:")
